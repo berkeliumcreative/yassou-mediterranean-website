@@ -1,47 +1,214 @@
 {
-  "businessName": "Sample Business",
-  "tagline": "Quality Service You Can Trust",
+  "businessName": "Yassou Mediterranean",
+  "tagline": "Authentic Mediterranean Flavors in Los Angeles",
   "hero": {
-    "heading": "Welcome to Our Business",
-    "subheading": "Professional service in your area.",
-    "ctaText": "Contact Us",
-    "ctaLink": "#contact"
+    "heading": "Taste the Mediterranean",
+    "subheading": "Fresh, bold flavors crafted with love. Join us Friday through Sunday for an unforgettable dining experience on San Fernando Road.",
+    "ctaText": "View Our Menu",
+    "ctaLink": "#menu",
+    "backgroundImage": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepO4w7O4YZiWZo8PuLDfFxo1hw5dBX56g8Ij1zxenjzg1w2q4jaNK0jXflrze5SjF2NuRFs_ksSUodwfn9olM1xAG1NJNfhyeotd2VQ_KG3bNbqbRFBIPGRjHnK6v-09V11rnP2=w408-h722-k-no"
   },
   "about": {
-    "heading": "About Us",
+    "heading": "Our Story",
     "paragraphs": [
-      "We are a local business dedicated to providing quality service.",
-      "Our team has years of experience and we take pride in our work."
+      "Yassou Mediterranean brings the vibrant flavors of the Mediterranean coast to the heart of Los Angeles. Every dish we prepare is rooted in generations of culinary tradition, using only the freshest ingredients and time-honored techniques that transform simple meals into memorable experiences.",
+      "We're a weekend dinner destination where friends and families gather around the table to share incredible food. From our hand-ground hummus to our perfectly charred lamb chops, every plate tells a story of craftsmanship and passion for authentic Mediterranean cuisine.",
+      "Step inside and feel the warmth of our dining room, where the aroma of grilled meats and freshly baked pita fills the air. Whether you're celebrating a special occasion or just craving something extraordinary, Yassou is your home away from home."
     ]
   },
   "services": [
-    { "title": "Service One", "description": "Professional service with attention to detail.", "icon": "star" },
-    { "title": "Service Two", "description": "Quality work at competitive prices.", "icon": "award" },
-    { "title": "Service Three", "description": "Fast, reliable, and thorough.", "icon": "check" }
+    {
+      "category": "Appetizers",
+      "items": [
+        {
+          "name": "Classic Hummus",
+          "price": "$8",
+          "description": "Silky chickpea dip with tahini, lemon, and olive oil"
+        },
+        {
+          "name": "Crispy Falafel",
+          "price": "$9",
+          "description": "Hand-formed and fried golden, served with tahini sauce"
+        },
+        {
+          "name": "Grape Leaves",
+          "price": "$8",
+          "description": "Tender leaves stuffed with seasoned rice and herbs"
+        },
+        {
+          "name": "Baba Ganoush",
+          "price": "$9",
+          "description": "Fire-roasted eggplant blended with garlic and tahini"
+        }
+      ]
+    },
+    {
+      "category": "Grilled Plates",
+      "items": [
+        {
+          "name": "Lamb Chops",
+          "price": "$22",
+          "description": "Marinated rack chops chargrilled to perfection"
+        },
+        {
+          "name": "Chicken Kebab",
+          "price": "$16",
+          "description": "Juicy skewers with grilled vegetables and rice"
+        },
+        {
+          "name": "Mixed Grill Platter",
+          "price": "$26",
+          "description": "A generous selection of our finest grilled meats"
+        },
+        {
+          "name": "Kofta Kebab",
+          "price": "$15",
+          "description": "Seasoned ground lamb and beef on the skewer"
+        }
+      ]
+    },
+    {
+      "category": "Salads & Sides",
+      "items": [
+        {
+          "name": "Fattoush Salad",
+          "price": "$10",
+          "description": "Crispy pita chips, fresh vegetables, and sumac dressing"
+        },
+        {
+          "name": "Tabbouleh",
+          "price": "$9",
+          "description": "Finely chopped parsley, tomato, bulgur, and lemon"
+        },
+        {
+          "name": "Garlic Fries",
+          "price": "$7",
+          "description": "Crispy fries tossed with garlic and herbs"
+        },
+        {
+          "name": "Grilled Vegetables",
+          "price": "$8",
+          "description": "Seasonal vegetables kissed by the grill"
+        }
+      ]
+    },
+    {
+      "category": "Desserts & Drinks",
+      "items": [
+        {
+          "name": "Baklava",
+          "price": "$7",
+          "description": "Layers of flaky phyllo, pistachios, and honey"
+        },
+        {
+          "name": "Turkish Coffee",
+          "price": "$5",
+          "description": "Rich, strong, and brewed the traditional way"
+        },
+        {
+          "name": "Fresh Mint Lemonade",
+          "price": "$5",
+          "description": "House-squeezed with fresh mint leaves"
+        },
+        {
+          "name": "Kunafa",
+          "price": "$9",
+          "description": "Warm cheese pastry with orange blossom syrup"
+        }
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Maria G.",
+      "text": "The lamb chops are out of this world. Perfectly seasoned and grilled just right. This place is a hidden gem on San Fernando Road!",
+      "rating": 5
+    },
+    {
+      "name": "David K.",
+      "text": "Amazing food and great vibes. The mixed grill platter was huge and every bite was delicious. Will definitely be coming back every weekend.",
+      "rating": 5
+    },
+    {
+      "name": "Samira T.",
+      "text": "The hummus and falafel reminded me of home. Authentic flavors that you just can't find anywhere else in LA. Highly recommend.",
+      "rating": 5
+    },
+    {
+      "name": "Jason R.",
+      "text": "Solid Mediterranean food at great prices. The chicken kebab was juicy and flavorful. Only wish they were open more days during the week.",
+      "rating": 4
+    },
+    {
+      "name": "Lena P.",
+      "text": "Came here on a Friday night and had such a wonderful experience. The baklava was the perfect ending to an incredible meal. Staff was super friendly.",
+      "rating": 4
+    }
   ],
   "contact": {
-    "address": "123 Main St, City, ST 12345",
-    "phone": "(555) 123-4567",
-    "email": "info@sample.com",
+    "phone": "(909) 999-0088",
+    "email": "hello@yassoumediterranean.com",
+    "address": "3279 N San Fernando Rd, Los Angeles, CA 90065",
     "hours": {
-      "Monday": "9:00 AM - 5:00 PM",
-      "Tuesday": "9:00 AM - 5:00 PM",
-      "Wednesday": "9:00 AM - 5:00 PM",
-      "Thursday": "9:00 AM - 5:00 PM",
-      "Friday": "9:00 AM - 5:00 PM",
-      "Saturday": "10:00 AM - 3:00 PM",
-      "Sunday": "Closed"
+      "Monday": "Closed",
+      "Tuesday": "Closed",
+      "Wednesday": "Closed",
+      "Thursday": "Closed",
+      "Friday": "6:00 PM - 12:00 AM",
+      "Saturday": "6:00 PM - 12:00 AM",
+      "Sunday": "6:00 PM - 12:00 AM"
     },
-    "mapEmbedQuery": "123+Main+St+City+ST"
+    "mapEmbedQuery": "Yassou Mediterranean, 3279 N San Fernando Rd, Los Angeles, CA 90065"
   },
+  "social": {
+    "instagram": "https://www.instagram.com/yassou__la/",
+    "facebook": "https://www.facebook.com/p/Yassou-100063548530531/"
+  },
+  "gallery": {
+    "images": [
+      {
+        "src": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepO4w7O4YZiWZo8PuLDfFxo1hw5dBX56g8Ij1zxenjzg1w2q4jaNK0jXflrze5SjF2NuRFs_ksSUodwfn9olM1xAG1NJNfhyeotd2VQ_KG3bNbqbRFBIPGRjHnK6v-09V11rnP2=w408-h722-k-no",
+        "alt": "Yassou Mediterranean dining"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "value": 3,
+      "label": "Years Serving LA",
+      "suffix": "+"
+    },
+    {
+      "value": 15000,
+      "label": "Dishes Served",
+      "suffix": "+"
+    },
+    {
+      "value": 120,
+      "label": "Five-Star Reviews",
+      "suffix": "+"
+    },
+    {
+      "value": 40,
+      "label": "Mediterranean Recipes",
+      "suffix": "+"
+    }
+  ],
   "seo": {
-    "title": "Sample Business | City, ST",
-    "description": "Sample Business in City, ST. Professional services you can trust.",
-    "keywords": ["sample business", "city ST", "professional services"]
+    "title": "Yassou Mediterranean | Authentic Mediterranean Dining in Los Angeles",
+    "description": "Experience authentic Mediterranean cuisine at Yassou Mediterranean in Los Angeles. Fresh hummus, grilled lamb chops, falafel, and more. Open Friday through Sunday evenings.",
+    "keywords": [
+      "Mediterranean restaurant Los Angeles",
+      "Greek food LA",
+      "lamb chops Los Angeles",
+      "hummus falafel LA",
+      "weekend dinner Los Angeles",
+      "San Fernando Road restaurant"
+    ]
   },
   "theme": {
-    "primaryColor": "#0a0a0a",
-    "accentColor": "#c8a97e",
-    "fontFamily": "modern"
+    "primaryColor": "#fafaf8",
+    "accentColor": "#065f46",
+    "fontFamily": "playful"
   }
 }
